@@ -65,4 +65,87 @@ header {
         background-color: #83ff6a;
         transform: scale(1.05); /* Aumenta ligeiramente ao passar o mouse */
     }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
     
+    .container {
+        display: flex;
+        gap: 20px; /* Espaçamento entre os parágrafos */
+        padding: 20px;
+    }
+    
+    .container p {
+        flex: 1; /* Faz com que os parágrafos ocupem o mesmo espaço */
+        margin: 0;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        display: flex;
+        gap: 20px; /* Espaçamento entre os itens */
+        padding: 20px;
+        flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se o espaço for insuficiente */
+    }
+    
+    .item {
+        flex: 1;
+        min-width: 200px; /* Largura mínima para cada item, ajustável conforme necessário */
+    }
+    
+    .box {
+        padding: 20px;
+        border: 2px solid #333; /* Cor e espessura da borda */
+        border-radius: 8px; /* Bordas arredondadas para os quadrados */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve aos quadrados */
+        background-color: #fff; /* Cor de fundo dos quadrados */
+    }
+    
+    .box h2 {
+        margin-top: 0;
+        font-size: 1.2em; /* Ajusta o tamanho da fonte dos títulos */
+        color: #333; /* Cor do texto dos títulos */
+    }
+    
+    .box p {
+        margin: 10px 0 0; /* Adiciona margem ao topo dos parágrafos */
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        display: flex;
+        gap: 20px; /* Espaçamento entre os quadrados */
+        padding: 20px;
+        flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte se o espaço for insuficiente */
+    }
+    
+    .box {
+        padding: 20px;
+        border: 2px solid #333; /* Cor e espessura da borda */
+        border-radius: 8px; /* Bordas arredondadas para o quadrado */
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve ao quadrado */
+        background-color: #f9f9f9; /* Cor de fundo do quadrado */
+        width: 300px; /* Largura fixa para o quadrado, ajustável conforme necessário */
+    }
+    
+    .box h2 {
+        margin-top: 0;
+        font-size: 1.2em; /* Ajusta o tamanho da fonte dos títulos */
+        color: #333; /* Cor do texto dos títulos */
+    }
+    
+    .box p {
+        margin: 10px 0 0; /* Adiciona margem ao topo do parágrafo */
+    }
+    
+     
